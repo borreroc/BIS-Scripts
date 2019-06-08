@@ -12,7 +12,7 @@ function myFunction() {
   var body = templateCopy.getBody();
   var lastRow = sheet.getLastRow();
 
-  cell = sheet.getRange(lastRow,2);  //replace template fields with form values
+  cell = sheet.getRange(lastRow,2);  //pull fields from google form and replace template fields with values
   name = cell.getValue(); 
   body.replaceText("##NAME##", name);
   
