@@ -189,10 +189,10 @@ driver.switch_to.frame("contentFrame")
 #enter username and password
 username = driver.find_element_by_id("userName")
 username.clear()
-username.send_keys("elancast")
+username.send_keys("XXXXXX")
 password = driver.find_element_by_name("password")
 password.clear()
-password.send_keys("1224Eel1")
+password.send_keys("XXXXXX")
 driver.find_element_by_name("submit").click()
 
 head_list = ['Job Title','Job Number', 'Rec. Type', 'Div/Org', 'CHM', 'Rec. Status', 'Status Date', 'IRD', 'Total Apps.', 'Incomplete Job Offers', 'Hires']
